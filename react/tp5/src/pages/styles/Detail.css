@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Staatliches&display=swap');
+
+.detail{
+    display: flex;
+    margin: 60px auto;
+    gap: 150px;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.titleimg{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 50px
+}
+
+.titleimg img{
+    margin-top: 10px;
+    max-width: 150px;
+    max-height: 70px;
+}
+
+.detail h2{
+    display: flex;
+    color: #ffff;
+    margin: auto;
+    font-family: 'Staatliches', cursive;
+    font-size: 80px;
+    padding: 0;
+    margin: auto;
+}
+
+.imagesdetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagesdetail .logo{
+    width: 210px;
+    margin: 10px auto;
+}
+
+.imagesdetail .personaje{
+    object-fit: cover;
+    margin-top: -80px;
+}
+
+.detail{
+    display: flex;
+    flex-wrap: 30px;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    border-radius: 5px;
+    background-color: #354259;
+    margin: auto;
+}
+
+.text h4{
+    justify-content: flex-start;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.text p{
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+.btn-detail{
+    display: flex;
+    margin: 15px auto;
+    gap: 40px;
+
+}
+
+.btn-detail button{
+    width: 150px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #EEEEEE;
+    color: black;
+    font-weight: 600;
+
+}
+
+.btn-detail button:hover{
+    font-weight: 900;
+    cursor: pointer;
+}

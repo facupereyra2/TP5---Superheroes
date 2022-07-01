@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Staatliches&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.title{
+    display: flex;
+}
+
+.title h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+    background-color: #354259;
+    color: #ffff;
+    width: 400px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.inputs input{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.inputs h3{
+    margin: auto;
+    font-size: 22px;
+}
+
+.title{
+    display: flex;
+    font-size: 20px;
+    margin-left: 25px;
+    color: #ffff;
+}
+
+.btn{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.btn button{
+    border-radius: 5px;
+    border: 0;
+    height: 30px;
+    
+    background-color: #EEEEEE;
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+    width: 100%;
+}
+
+.btn button:hover{
+    cursor: pointer;
+}
+
+

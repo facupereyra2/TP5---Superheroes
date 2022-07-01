@@ -1,0 +1,15 @@
+
+web: 
+  build: .
+  command: sh -c 'npm install; npm start'
+  ports: 
+    - '6060:6060'
+  volumes:
+    - /home/facundo/Escritorio/tp5/api:/api
+  links:
+    - 'db'
+
+db:
+  image: mongo
+  ports:
+    - "27017:27017"
